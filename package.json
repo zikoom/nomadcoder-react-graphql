@@ -1,0 +1,27 @@
+{
+  "name": "nomadcoder-react-graphql",
+  "version": "1.0.0",
+  "description": "노마드 코더 그래프큐엘 + 리액트 강의 기록 저장소",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zikoom/nomadcoder-react-graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zikoom/nomadcoder-react-graphql/issues"
+  },
+  "homepage": "https://github.com/zikoom/nomadcoder-react-graphql#readme",
+  "dependencies": {
+    "apollo-server": "^3.12.0",
+    "graphql": "^16.7.1",
+    "nodemon": "^3.0.1"
+  },
+  "type": "module"
+}
