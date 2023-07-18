@@ -47,13 +47,15 @@ const resolvers = {
     }
   },
   Mutation: {
-    postTweet(root, params){
-      console.log(root, params);
-      return {
-        id: 1,
-        text: 'haha',
-
+    postTweet(root, {text, userId}){
+      console.log(root, text, userId);
+      const newTweet = {
+        id: Tweets.length + 1,
+        text: text
       }
+
+      Tweets.push(newTweet);
+      return newTweet;
     }
   }
 }
